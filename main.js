@@ -58,6 +58,7 @@ function clearCharacters() {
   charContainer.innerHTML = ``
 }
 
+getAllBtn.addEventListener('click', getAllChars)
 
 for(let i =0; i < charBtns.length; i++) {
   charBtns[i].addEventListener('click', getOneChar)
